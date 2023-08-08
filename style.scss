@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 482px);
+    padding-right: calc(50% - 482px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 1024px;
+    background-image: url(img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 120px;
+    &__title {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFF;
+        width: 788.778px;
+        padding-top: 217.1px;
+        margin-bottom: 32px;
+    }
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        width: 481px;
+        margin-bottom: 44px;
+    }
+    &__button {
+        width: 234.063px;
+        height: 48.603px;
+        border-radius: 30px;
+        background: #9C0332;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border: none;
+    }
+}
+
+.product {
+    background-color: #000915;
+    padding-bottom: 128px;
+    padding-top: 128px;
+    &__content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 32px;
+    }
+    &__box {
+        width: 379px;
+        height: 300px;
+        border-radius: 16px;
+        background: transparent
+    }
+}
