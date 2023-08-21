@@ -81,4 +81,11 @@ a {
   height: 300px;
   border-radius: 16px;
   background: transparent;
+}
+
+@media (max-width: 1024px) {
+  .center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+  }
 }/*# sourceMappingURL=style.css.map */
