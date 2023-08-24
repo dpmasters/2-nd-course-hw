@@ -3,10 +3,29 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-}
-
-.top__title {
-    width: 788.778px;
-    font-size: 32px;
-    text-align: center;
+    .top {
+        height: 735px;
+        background-image: url(img/topmobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            font-size: 32px;
+            line-height: normal;
+            width: 343px;
+            text-align: center;
+        }
+        &__text {
+            width: 343px;
+            text-align: center;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+    }
+    .product__box {
+        width: 343px;
+    }
 }
