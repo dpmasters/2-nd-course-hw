@@ -8,8 +8,8 @@ body {
 }
 
 .center {
-  padding-left: calc(50% - 482px);
-  padding-right: calc(50% - 482px);
+  padding-left: calc(50% - 599px);
+  padding-right: calc(50% - 599px);
 }
 
 a {
@@ -22,10 +22,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
   padding-left: 120px;
 }
 .top__title {
@@ -73,19 +69,45 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 32px;
 }
 .product__box {
-  width: 379px;
+  width: 378px;
   height: 300px;
   border-radius: 16px;
   background: transparent;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
   .center {
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(img/topmobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .top__title {
+    font-size: 32px;
+    line-height: normal;
+    width: 343px;
+    text-align: center;
+  }
+  .top__text {
+    width: 343px;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .product__picture {
+    width: 343px;
+    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
