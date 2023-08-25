@@ -67,12 +67,12 @@
 // }
 
 
-// // #8
+// #8
 // let clientOS = 0;
 // clientOS = (confirm('Вы испульзуете iOS?'));
 // (clientOS) ? alert('Установите версию приложения для iOS по ссылке') : alert('Установите версию приложения для Android по ссылке');
 
-// // // 9 
+// 9 
 // let newClientOS = (confirm('Вы используете iOS?'));
 // let clientDeviceYear = Number(prompt('введите год выпуска телефона'));
 // let required = (clientDeviceYear >= 2015) ? (newClientOS ? 'для iOS' : 'для Android') : (newClientOS ? 'облегченную для iOS' : 'облегченную для Android');

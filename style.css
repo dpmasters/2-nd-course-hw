@@ -106,7 +106,8 @@ a {
     margin-bottom: 32px;
     font-size: 14px;
   }
-  .product__box {
+  .product__picture {
     width: 343px;
+    height: 300px;
   }
 }/*# sourceMappingURL=style.css.map */
