@@ -83,6 +83,37 @@ a {
     }
 }
 
+.prefooter {
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 135px;
+    &__title {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #FFF;
+        width: 377px;
+        margin-bottom: 32px;
+    }
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        width: 584px;
+        margin-bottom: 32px;
+    }
+    &__icon {
+        width: 485px;
+        height: 333px;
+    }
+}
 
 
-@import 'mobile';
+@import 'mobile2';
