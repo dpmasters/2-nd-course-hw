@@ -25,29 +25,37 @@
             font-size: 14px;
         }
     }
-    ,product {
+    .product {
         height: 1221px;
+        padding-bottom: 0px;
         &__picture {
             width: 343px;
             height: 300px;
-            padding-bottom: 127px;
         }
     }
 
     .prefooter {
         height: 653px;
         flex-direction: column;
+        gap: 64px;
+        padding-bottom: 21px;
         &__title {
             font-size: 32px;
+            width: 343px;
+            text-align: center;
         }
         &__text {
             font-size: 14px;
             line-height: 22px;
             width: 343px;
+            text-align: center;
+        }
+        &__go {
+            padding-left: 54.47px;
         }
         &__icon {
             width: 344px;
-            height: 236px;
+            height: 236px; 
         }
     }
 }

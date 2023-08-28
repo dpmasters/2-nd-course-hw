@@ -57,7 +57,10 @@ a {
   align-items: center;
   text-align: center;
   justify-content: center;
-  border: none;
+  border: 2px solid #9C0332;
+}
+.top__button:hover {
+  border-color: aqua;
 }
 
 .product {
@@ -80,6 +83,12 @@ a {
   background: transparent;
 }
 .product__box:hover {
+  border-color: aqua;
+}
+.product__box__picture {
+  border-color: #FFF;
+}
+.product__box__picture:hover {
   border-color: aqua;
 }
 
@@ -109,6 +118,25 @@ a {
   line-height: 32px;
   width: 584px;
   margin-bottom: 32px;
+}
+.prefooter__button {
+  width: 234.063px;
+  height: 48.603px;
+  border-radius: 30px;
+  border: 2px solid #9C0332;
+  background: #9C0332;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.prefooter__button:hover {
+  border-color: aqua;
 }
 .prefooter__icon {
   width: 485px;
@@ -142,19 +170,33 @@ a {
     margin-bottom: 32px;
     font-size: 14px;
   }
+  .product {
+    height: 1221px;
+    padding-bottom: 0px;
+  }
   .product__picture {
     width: 343px;
     height: 300px;
   }
   .prefooter {
+    height: 653px;
     flex-direction: column;
+    gap: 64px;
+    padding-bottom: 21px;
   }
   .prefooter__title {
     font-size: 32px;
+    width: 343px;
+    text-align: center;
   }
   .prefooter__text {
     font-size: 14px;
     line-height: 22px;
+    width: 343px;
+    text-align: center;
+  }
+  .prefooter__go {
+    padding-left: 54.47px;
   }
   .prefooter__icon {
     width: 344px;
