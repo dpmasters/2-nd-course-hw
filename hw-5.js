@@ -90,14 +90,12 @@
 //         return Math.PI * (circle1.radius ** 2);
 //     }
 //   };
-
 //   const circle2 = {
 //     radius: 20,
 //     getPerimeter() {
 //         return 2 * Math.PI * circle2.radius;
 //     }
 //   };
-
 //   console.log(circle1.getArea());
 //   console.log(circle2.getPerimeter());
 
