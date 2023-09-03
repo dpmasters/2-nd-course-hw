@@ -248,4 +248,15 @@ a {
     width: 344px;
     height: 231px;
   }
+  .prefooter-two {
+    height: 653px;
+    flex-direction: column-reverse;
+    gap: 64px;
+    padding-bottom: 21px;
+  }
+  .prefooter-two__title {
+    font-size: 32px;
+    width: 343px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style3.css.map */

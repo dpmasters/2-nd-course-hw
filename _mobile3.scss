@@ -62,4 +62,15 @@
             }
         }
     }
+    .prefooter-two {
+        height: 653px;
+        flex-direction: column-reverse;
+        gap: 64px;
+        padding-bottom: 21px;
+        &__title {
+            font-size: 32px;
+            width: 343px;
+            text-align: center;  
+        }
+    }
 }
